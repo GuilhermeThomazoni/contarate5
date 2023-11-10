@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+.box{
+    padding-top: 5rem;
+    width: 50%;
+    padding: 10%;
+    margin: 4% auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px rgb(221, 221, 221);
+    
+}
+
+button{
+    border: 0;
+    width: 10rem;
+    height: 3.5rem;
+    background-color: rgb(88, 5, 182);
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    background-color: rgb(66, 7, 134);
+}
